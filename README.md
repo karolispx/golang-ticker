@@ -7,4 +7,16 @@ You will need to get this package to make it work:
 * `go get github.com/karolispx/golang-ticker`
 
 ## Sample usage:
-* `Tick(100, "Hello world", 10)`
+* `ticker.Tick(100, "Hello world", 10)`
+
+## Example:
+```
+package main
+
+import "github.com/karolispx/golang-ticker"
+
+func main() {
+	ticker.Tick(100, "Hello world", 20)
+}
+
+```
